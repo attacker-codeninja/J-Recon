@@ -46,6 +46,25 @@ commands to be run
 
 
 
+for using the tool on its 100% of potential just configure the config file given below:-
+
+1) token.txt # fill the values
+
+
+![Screenshot_2022-05-10_14-06-43](https://user-images.githubusercontent.com/97843059/167694510-9d220a14-2839-41da-8426-7e8c6570e0f2.png)
+
+
+
+2) Z-Recon.cfg # fill the values and api keys.
+
+
+
+
+![Screenshot_2022-05-10_14-07-53](https://user-images.githubusercontent.com/97843059/167694546-60c40817-22a1-4fdc-9eaf-61089b12ca7d.png)
+
+
+
+
 All the results of the scan were saved in the Recon folder , remember the time of scanning is depended on the potential of scan you have choosed.
 
 Enjoy your recon is complete bro.
