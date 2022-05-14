@@ -10,7 +10,7 @@ echo -n " IS YOUR TARGET RUNS ON WORDPRESS  YES / NO "
 read TARGET
  sleep 1
 
-if [ "power" = "low" ];
+if [ "$power" = "low" ];
 then 
   bash Jerry.sh -d $domain && bash Z-Recon.sh -d $domain -r
 else
@@ -19,7 +19,7 @@ fi
 
 sleep 2
 
-if [ "TARGET" = "yes" ];
+if [ "$TARGET" = "yes" ];
 then
   php wphunter.php https://$domain && wpsan --url https://$domain -eu vt vp -o "/Recon/wordpress.txt" 
 else
